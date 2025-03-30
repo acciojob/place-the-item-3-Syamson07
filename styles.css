@@ -1,2 +1,14 @@
+.holder {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px; /* Optional: Adds spacing between items */
+}
 
-/* Your CSS Code here. */
+.item {
+    flex: 1 1 200px; /* Grow, shrink, and set a base width */
+    text-align: center;
+    padding: 10px;
+    background-color: lightgray;
+    border: 1px solid #000;
+}
